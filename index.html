@@ -47,14 +47,16 @@
               </div>
             </div>
           </nav>
+
           <!-- image slider -->
-          <section class="container">
+          <section class="container pb-5">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
+
                 <div class="carousel-inner rounded">
                   <div class="carousel-item active">
 
@@ -121,12 +123,63 @@
     <!-- header ends  -->
     <!-- main body starts  -->
     <main>
+        <!-- categories -->
+        <section class="container pt-5 pb-5 d-flex justify-content-between">
+            <div class="row rounded p-3 bg-warning col-lg-4">
+                <div class="col d-flex align-items-center ps-3">
+                    <div class="col-lg-7 text-light">
+                        <h3>Watch</h3>
+                    </div>
+                    <div class="col-lg-5">
+                        <img src="images/categories/watch.png" class="w-75" alt="">
+                    </div>
+                </div>
+            </div>
 
+            <div class="row rounded p-3 bg-info col-lg-4">
+                <div class="col d-flex align-items-center ps-3">
+                    <div class=" col-lg-7 text-light">
+                        <h3>Backpack</h3>
+                    </div>
+                    <div class="col-lg-5">
+                        <img src="images/categories/bag.png" class="w-75" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row rounded p-3 bg-success col-lg-4">
+                <div class="col d-flex align-items-center ps-3">
+                    <div class=" col-lg-7 text-light">
+                        <h3>Shoe</h3>
+                    </div>
+                    <div class="col-lg-5">
+                        <img src="images/categories/shoes.png" class="w-75" alt="">
+                    </div>
+                </div>
+            </div>          
+        </section>
+
+
+        <!-- contact form  -->
+        <section class="container bg-success text-dark bg-opacity-25 p-5">
+            <form class="w-50 mx-auto">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Get updates on sales, specials and more!</div>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Agreed terms and conditions*</label>
+                </div>
+                <button type="submit" class="btn btn-success">Subscribe</button>
+              </form>
+        </section>
     </main>
     <!-- main body ends  -->
     <!-- footer starts  -->
     <footer>
-
+        <small class= "d-flex justify-content-center mt-3"> &copy; Copyright  preserved by: <a class="text-decoration-none ms-2" href="https://www.linkedin.com/in/md-sharif-hossain-481582137/" > Sharif Hossain</a></small>
     </footer>
     <!-- footer ends  -->
     <!-- JS Stylesheet  -->
