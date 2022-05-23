@@ -15,11 +15,11 @@
 </head>
 <!-- head ends  -->
 <!-- body starts  -->
-<body style="background-color: #F4F4F4;">
+<body style="background-color: #F4F4F4; padding-top: 65px;">
     <!-- header starts  -->
     <header>
         <!-- navbar  -->
-        <nav class="navbar navbar-expand-lg bg-light bg-white">
+        <nav class="navbar navbar-expand-lg bg-light bg-white fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#"><img src="images/logo2.png" alt="geteasy.com.bd" width="160" height="40" class="d-inline-block align-text-top"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,13 +31,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#backpacks">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -187,7 +187,7 @@
         </section>
 
         <!-- shoes  -->
-        <section class="container py-5">
+        <section class="container py-5" id="shoes">
             <h2>Shoes</h2>
 
             <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -243,7 +243,7 @@
         </section>
 
         <!-- backpack  -->
-        <section class="container py-5">
+        <section class="container py-5" id="backpacks">
             <h2>Backpack</h2>
 
             <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -298,7 +298,7 @@
               </div>
         </section>
         <!-- contact form  -->
-        <section class="container bg-success text-dark bg-opacity-25 p-5 mt-5">
+        <section class="container bg-success text-dark bg-opacity-25 p-5 mt-5" id="subscribe">
             <form class="w-50 mx-auto">
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Email address</label>
